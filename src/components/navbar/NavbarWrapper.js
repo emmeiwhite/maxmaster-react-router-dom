@@ -8,7 +8,7 @@ const NavbarWrapper = styled.nav`
     width: var(--view-width);
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 0;
     display: grid;
     gap: 2rem;
     align-items: center;

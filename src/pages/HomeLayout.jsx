@@ -23,7 +23,8 @@ const Wrapper = styled.main`
 
   .main {
     flex: 1;
-    width: var(--max-width);
+    width: var(--view-width);
+    max-width: var(--max-width);
     margin: 0 auto;
     padding: 2rem 0;
   }

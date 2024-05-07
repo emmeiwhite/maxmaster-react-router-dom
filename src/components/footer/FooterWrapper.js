@@ -6,7 +6,7 @@ const FooterWrapper = styled.footer`
     width: var(--view-width);
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 0;
   }
 
   .footer-content {
