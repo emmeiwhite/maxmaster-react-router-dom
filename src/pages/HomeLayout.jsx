@@ -2,12 +2,27 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 
-export default function HomeLayout() {
+import styled from "styled-components";
+
+function HomeLayout() {
   return (
-    <div>
+    <Wrapper className="homepage-layout">
       <Navbar />
-      <Outlet />
+      <div className="main">
+        <Outlet />
+      </div>
       <Footer />
-    </div>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.main`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  .main {
+    flex: 1;
+  }
+`;
+
+export default HomeLayout;

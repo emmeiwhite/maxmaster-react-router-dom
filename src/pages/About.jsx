@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
+import Wrapper from "../assets/wrappers/AboutPage";
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <Wrapper>
+      <h3>About Us</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-        adipisci beatae nobis sapiente, asperiores tempore dolore in fuga
-        dolorum doloribus fugiat id amet nulla fugit! Quos vero iure repellat
-        saepe?
+        Introducing "MixMaster," the ultimate party sidekick app that fetches
+        cocktails from the hilarious Cocktails DB API. With a flick of your
+        finger, you'll unlock a treasure trove of enchanting drink recipes
+        that'll make your taste buds dance and your friends jump with joy. Get
+        ready to shake up your mixology game, one fantastical mocktail at a
+        time, and let the laughter and giggles flow!
       </p>
-
-      <Link to="/">Home</Link>
-    </div>
+    </Wrapper>
   );
 }
