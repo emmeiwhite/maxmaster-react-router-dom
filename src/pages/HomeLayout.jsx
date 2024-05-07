@@ -20,8 +20,12 @@ const Wrapper = styled.main`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
   .main {
     flex: 1;
+    width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem 0;
   }
 `;
 
