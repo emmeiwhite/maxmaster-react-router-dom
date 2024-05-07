@@ -1,19 +1,11 @@
 import { NavLink } from "react-router-dom";
-import styled from "styled-components";
-
-const StyledBtn = styled.button`
-  background-color: orange;
-  color: white;
-  padding: 0.5rem 1rem;
-  border: none;
-`;
+import Wrapper from "../assets/wrappers/Navbar";
 
 function Header() {
   return (
     <Wrapper>
-      <div className="Wrapper-center">
+      <div className="nav-center">
         <span className="logo">MixMaster</span>
-        <StyledBtn>Button Test</StyledBtn>
         <div className="nav-links">
           <NavLink
             className="nav-link"
@@ -39,7 +31,4 @@ function Header() {
   );
 }
 
-const Wrapper = styled.nav`
-  background-color: teal;
-`;
 export default Header;
