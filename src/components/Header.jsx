@@ -8,10 +8,10 @@ const StyledBtn = styled.button`
   border: none;
 `;
 
-export default function Header() {
+function Header() {
   return (
-    <nav>
-      <div className="nav-center">
+    <Wrapper>
+      <div className="Wrapper-center">
         <span className="logo">MixMaster</span>
         <StyledBtn>Button Test</StyledBtn>
         <div className="nav-links">
@@ -35,6 +35,11 @@ export default function Header() {
           </NavLink>
         </div>
       </div>
-    </nav>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.nav`
+  background-color: teal;
+`;
+export default Header;
