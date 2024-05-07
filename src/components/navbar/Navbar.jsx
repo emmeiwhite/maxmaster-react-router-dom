@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
-import Wrapper from "../assets/wrappers/Navbar";
+import NavbarWrapper from "./NavbarWrapper";
 
 function Header() {
   return (
-    <Wrapper>
+    <NavbarWrapper>
       <div className="nav-center">
         <span className="logo">MixMaster</span>
         <div className="nav-links">
@@ -27,7 +27,7 @@ function Header() {
           </NavLink>
         </div>
       </div>
-    </Wrapper>
+    </NavbarWrapper>
   );
 }
 
